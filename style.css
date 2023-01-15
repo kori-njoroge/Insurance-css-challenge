@@ -348,3 +348,122 @@ sub, sup{
     width: 85%;
     margin-top: 10px;
 }
+.branches1{
+    background-color: #030718;
+    padding-bottom: 300px;
+}
+.branches{
+    color: white;
+    width: var(--width);
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    padding-top: 100px;
+}
+.story{
+    width: 1200px;
+    margin-right: 70px;
+}
+.map{
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+
+.branches img{
+    margin-left: auto;
+    width: 500px;
+}
+.appointment{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    margin-top: -15%;
+    background-color: white;
+    height: 550px;
+    border-color: rgb(204, 200, 200);
+    box-shadow: 0px 0px 10px rgb(230, 230, 230);
+}
+.appointment img{
+    width: 300px;
+}
+.appointment form{
+    padding-left: 50px;
+    line-height: 40px;
+}
+form h3{
+    text-align: center;
+    font-size: 25px;
+}
+form input, select, form button{
+    width: 400px;
+    height: 35px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #E9E9ED;
+    padding-left: 10px;
+    padding-right:10px;
+}
+select{
+    width: 420px;
+}
+form button{
+    background-color: var(--blue);
+    margin-top: 30px;
+    width: 420px;
+    height: 50px;
+}
+
+.contact{
+    display: flex;
+    width: var(--width);
+    margin: auto;
+    margin-top: 100px;
+}
+
+.contactUs{
+    font-weight: bold ;
+    font-size: 25px;
+}
+
+.contact button{
+    margin-left: auto;
+    padding-left: 60px;
+    padding-right:60px;
+    height: 60px;
+    background-color: var(--blue);
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+.details ion-icon{
+    display: inline-block;
+    color: var(--blue);
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.footer{
+    display: flex;
+    margin-top: 30px;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+.footer p{
+    text-transform: capitalize;
+}
+.socials{
+    margin-left: auto;
+    color: var(--blue);
+}
