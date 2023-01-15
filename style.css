@@ -1,0 +1,212 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&display=swap'); */
+:root{
+    --width:80%;
+    --padding-right:auto;
+    --padding-left:auto;
+    --blue:#23A6F0;
+    --colorbtn:#E8F5FC;
+    --pfontsize:10px;
+}
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+    }
+
+*{
+    font-family: 'Montserrat',sans-serif;
+}
+
+.home{
+    background-image: url("./images/hero-cover.png");
+    height: 700px;
+}
+
+nav{
+    padding-top: 5px;
+    display: flex;
+    width:var(--width);
+    margin-left: var(--padding-left);
+    margin-right: var(--padding-right);
+}
+nav h1{
+    color: white;
+}
+nav > div{
+    display: flex;
+}
+
+.navContent{
+    color: var(--colorbtn);
+    margin: auto;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 8%;
+}
+
+.navContent h3{
+    margin-right: 15px;
+}
+
+.navLeft >h3{
+    color: var(--colorbtn);
+    margin-right: 20px;
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: auto;
+    margin-bottom:auto ;
+
+}
+
+.navLeft button{
+    color: var(--colorbtn);
+    background-color: var(--blue);
+    border-radius: 5px;
+    border: 0;
+    height: 60%;
+    margin-top: auto;
+    margin-bottom:auto ;
+    font-size: 10px;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right:15px;
+}
+ion-icon{
+    padding-left: 5px;
+}
+
+.body{
+    background-color: #FAFAFA;
+    margin-top: -200px;
+}
+.homeInfo{
+    text-align: center;
+    /* margin-top:0%; */
+}
+
+.big{
+    text-transform: capitalize;
+    color: white;
+    font-size: 60px;
+    font-weight: 900;
+}
+.additional{
+    color: white;
+    font-size: 22px;
+}
+
+.homeBtn button{
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--colorbtn);
+    height: 50px;
+    border-radius: 30px;
+    padding-left: 25px;
+    padding-right:25px ;
+
+}
+.quote{
+    background-color: var(--blue);
+    border: 0;
+}
+.learn{
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+.cards{
+    display: flex;
+    width: var(--width);
+    margin-left: var(--padding-left);
+    margin-right: var(--padding-right);
+    margin-top: -100px;
+    margin-bottom: 100px;
+    background-color: transparent;
+}
+
+.cards div{
+    width: 30%;
+    height: 200px;
+    box-shadow: 0px 7px 20px rgb(230, 230, 230);
+    
+}
+.cards h4, .cards p, .cards ion-icon{
+    padding-left: 30px;
+    padding-right:30px;
+}
+.cards ion-icon{
+    padding-top: 30px;
+    color: var(--blue);
+}
+.cards h4{
+    font-size: 20px;
+}
+.left-card{
+    background-color: white;
+}
+.middle-card{
+    margin: auto;
+    background-color: white;
+}
+.right-card{
+    background-color: var(--blue);
+    color: white;
+}
+.right-card ion-icon{
+    color: white;
+}
+.cards2{
+    padding-top: 200px;
+}
+.card2-content{
+    margin-left: var(--padding-left);
+    margin-right: var(--padding-right);
+    display: flex;
+    background-color: rgb(253, 253, 253);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+.card2-content div{
+    text-align: center;
+}
+.card1{
+    padding-left: 10%;
+}
+.card2{
+    margin: auto;
+}
+.card3{
+    padding-right:10%;
+}
+
+.card1 ion-icon, .card2 ion-icon, .card3 ion-icon{
+    color:var(--blue);
+    font-weight: bold;
+}
+
+.card2-content h5{
+    font-size: 14px;
+}
+.industry{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.industry h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+.people{
+    display: flex;
+    color: var(--colorbtn);
+}
+.people div{
+    border: 1px solid rgb(49, 49, 49);
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 0px 10px;
+}
