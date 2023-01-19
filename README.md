@@ -2,5 +2,5 @@ Insurance Service web page
 
 Deployed  in Netlify https://subtle-salmiakki-bfd423.netlify.app/
 
-<img src="asis.png" alt="design>
+<img src="look.png" alt="The design">
 
